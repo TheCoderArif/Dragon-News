@@ -16,6 +16,12 @@ const Home = () => {
                 <NavBar></NavBar>
             </nav>
 
+            <main className="py-6 w-11/12 mx-auto grid md:grid-cols-12 gap-3">
+                <aside className="left col-span-3"> left aside </aside>
+                <section className="main col-span-6">Main</section>
+                <aside className="right col-span-3">right</aside>
+            </main>
+
             <footer></footer>
         </div>
     );
