@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div className='flex flex-col justify-center items-center'>
             <img src={logo} alt="" className='' />
-            <h3 className='py-1 text-gray-500 text-xl'>Journalism Without Fear or Favour</h3>
+            <h3 className='py-1 text-gray-500 text-xl font-poppins'>Journalism Without Fear or Favour</h3>
             <p>
                 {
                     moment().format("dddd, MMMM Do YYYY")
