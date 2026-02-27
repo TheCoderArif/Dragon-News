@@ -1,5 +1,6 @@
 import Header from "../../components/header/Header";
 import LatestNews from "../../components/latest-news/LatestNews";
+import NavBar from "../../components/navBar/NavBar";
 
 const Home = () => {
     return (
@@ -10,7 +11,11 @@ const Home = () => {
                     <LatestNews></LatestNews>
                 </section>
             </header>
-            <nav></nav>
+
+            <nav className="w-11/12 mx-auto">
+                <NavBar></NavBar>
+            </nav>
+
             <footer></footer>
         </div>
     );
