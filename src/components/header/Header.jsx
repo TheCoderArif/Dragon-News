@@ -7,7 +7,7 @@ const Header = () => {
             <h3 className='py-1 text-gray-500 text-xl'>Journalism Without Fear or Favour</h3>
             <p>
                 {
-                    moment().format("dddd, MMMM Do YYYY, h:mm:ss a")
+                    moment().format("dddd, MMMM Do YYYY")
                 }
             </p> 
         </div>
