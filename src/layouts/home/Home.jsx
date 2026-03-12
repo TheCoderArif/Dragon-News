@@ -24,7 +24,7 @@ const Home = () => {
           <LeftNavBar></LeftNavBar>
         </aside>
         <section className="main col-span-6">
-          main
+          
           <Outlet></Outlet>
         </section>
         <aside className="right col-span-3">
