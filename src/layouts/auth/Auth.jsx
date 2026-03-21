@@ -8,7 +8,7 @@ const Auth = () => {
             <NavBar></NavBar>
             </header>
             <Outlet></Outlet>
-            Auth
+            
         </div>
     );
 };

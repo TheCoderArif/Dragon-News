@@ -1,6 +1,7 @@
 import { FaEye, FaStar } from "react-icons/fa";
 import { BsBookmark } from "react-icons/bs";
 import { FiShare2 } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const NewsCard = ({ news }) => {
 
@@ -12,6 +13,7 @@ const NewsCard = ({ news }) => {
     author,
     rating
   } = news;
+  console.log(news._id);
 
   return (
     <div className="card bg-base-100 shadow-md my-2">
@@ -62,7 +64,7 @@ const NewsCard = ({ news }) => {
         <p className="text-gray-600 text-sm mt-3">
           {details.slice(0, 200)}...
           <span className="text-orange-500 font-semibold cursor-pointer ml-2">
-            Read More
+           <Link to={`/news/${news._id}`}> Read More</Link>
           </span>
         </p>
 
